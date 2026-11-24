@@ -1,0 +1,33 @@
+{
+  "name": "zsyh-pdf-quiz-bot-v2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vinext build",
+    "package:sites": "node scripts/package-sites.mjs",
+    "preview": "wrangler dev",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-server-dom-webpack": "19.2.7",
+    "unpdf": "^1.6.2",
+    "vinext": "1.0.0-beta.2"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.45.1",
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.3",
+    "@vitejs/plugin-rsc": "0.5.28",
+    "tsx": "^4.19.3",
+    "typescript": "5.9.3",
+    "vite": "8.1.5",
+    "wrangler": "4.112.0"
+  }
+}

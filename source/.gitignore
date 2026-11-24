@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.sites-package/
+zsyh-vinext-sites.tar.gz
+.next/
+.vinext/
+.wrangler/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
